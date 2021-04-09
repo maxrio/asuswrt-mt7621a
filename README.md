@@ -24,11 +24,11 @@ Installation process is similar to OpenWRT
 ## How to build image from source
 按照梅林编译方法。
 
-###首先搭建编译环境，使用ubuntu16.04  64位系统。先更新一下系统软件
+### 首先搭建编译环境，使用ubuntu16.04  64位系统。先更新一下系统软件
 sudo apt-get update
 sudo apt-get upgrade
 
-###安装编译梅林所需要的依赖软件包
+### 安装编译梅林所需要的依赖软件包
 sudo apt-get install autoconf automake bash bison bzip2 diffutils file flex m4 \
 g++ gawk groff-base libncurses-dev libtool libslang2 make patch perl pkg-config \
 shtool subversion tar texinfo zlib1g zlib1g-dev git-core gettext libexpat1-dev \
@@ -38,7 +38,7 @@ libvorbis-dev g++-5-multilib git autopoint autogen sed lib32z1-dev lib32stdc++6 
 build-essential intltool libelf1:i386 libglib2.0-dev xutils-dev libltdl7-dev libproxy-dev
 
 
-###下载完以后将文件链接到指定目录
+### 下载完以后将文件链接到指定目录
 sudo ln -s ~/asuswrt-merlin/tools/brcm /opt/brcm
 sudo ln -s ~/asuswrt-merlin/release/src-rt-6.x.4708/toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3 /opt/brcm-arm
 sudo mkdir -p /media/ASUSWRT/
