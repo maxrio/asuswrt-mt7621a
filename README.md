@@ -39,16 +39,22 @@ build-essential intltool libelf1:i386 libglib2.0-dev xutils-dev libltdl7-dev lib
 
 
 ### 下载完以后将文件链接到指定目录
+
 sudo ln -s ~/asuswrt-merlin/tools/brcm /opt/brcm
+
 sudo ln -s ~/asuswrt-merlin/release/src-rt-6.x.4708/toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3 /opt/brcm-arm
+
 sudo mkdir -p /media/ASUSWRT/
+
 sudo ln -s ~/asuswrt-merlin /media/ASUSWRT/asuswrt-merlin
+
 声明环境变量，直接执行，也可添加到.bashrc文件中(添加后需要执行source ~/.bashrc)
+
 export PATH=$PATH:/opt/brcm/hndtools-mipsel-linux/bin:/opt/brcm/hndtools-mipsel-uclibc/bin:/opt/brcm-arm/bin
 
 
 
-setup development system
+#### setup development system
 
 	Broadcom SoC models
 	===================
